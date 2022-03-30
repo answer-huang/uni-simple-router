@@ -1,4 +1,3 @@
-
 export declare interface AppConfig {
     registerLoadingPage?: boolean;
     loadingPageStyle?: () => object;
@@ -322,12 +321,3 @@ export declare type vueOptionRule = {
 };
 
 export { }
-
-// @ts-ignore
-declare module 'vue/types/vue' {
-    interface Vue {
-        $Router: Router;
-        $Route: routeRule;
-    }
-}
-    
